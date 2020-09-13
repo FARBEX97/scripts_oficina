@@ -1,45 +1,80 @@
-# Scripts de Oficina
+# Scripts de Oficina v1
 
-Este repositorio está creado con el único propósito de mejorar la calidad de vida de los empleados de oficina y graduados en Administración de Empresas. 
+Este repositorio está creado con el único propósito de mejorar la calidad de vida de los empleados de oficina de habla hispana.
 
-Actualmente encontrarás estos scripts:
-  - cambiar_nombres_archivos.py
-  - unificarTablas.py
+Este repositorio tiene la siguiente estructura:
 
+- Scripts.
+- Asistentes.
+- Clases.
 
-# ¡Novedades!
+## Scripts
 
-  - Añadido el script unificarTablas.py
+Los scripts de este repositorio son pequeños programas con funcionalidades muy específicas para descargar y utilizar sin necesidad de mucha configuración. Únicamente descarga la versión del intérprete de Python y las dependencias que se especifican al final de esta misma página.
 
-
-# Unificar tablas .xlsx y .csv
+### unificar_tablas
 
 ¡Reune tus archivos .xlsx y .csv en uno solo de forma automática con este script!
 
-Requisitos:
+#### Instrucciones
 
-- Python3 (Versión recomendada: 3.8.5) 
-- Dependencias:
-  - et-xmlfile==1.0.1
-  - jdcal==1.4.1
-  - numpy==1.19.1
-  - openpyxl==3.0.5
-  - pandas==1.1.1
-  - python-dateutil==2.8.1
-  - pytz==2020.1
-  - six==1.15.0
-  - xlrd==1.2.0
-
-Instrucciones:
 - Prepara tus ficheros en una misma carpeta y pega el script en ella ¡No importa cuántos sean!
 - Ejecuta el programa unificarTablas.py y sigue las instrucciones que aparecerán en la ventana emergente (consola).
 - Recoge tu fichero "combinado.xlsx/.csv".
 
-Nota importante:
+#### Nota importante
+
 - Para unificar los archivos, deben encontrarse en la misma carpeta.
 - Para que el programa interprete bien bajo qué columnas colocar los datos, las tablas deben tener coherencia y tener siempre los mismos encabezados.
 - Las celdas formuladas se quedarán como valores en lugar de fórmulas.
 
+## Asistentes
 
-# Esto es software libre
+El paquete de "asistentes" contiene funciones para algunas de las actividades más habituales en la oficina. Actualmente cuenta con:
+
+- AsistenteExcel.py
+- AsistenteGUI.py
+- AsistenteWin.py
+
+### AsistenteGUI
+
+Contiene pequeñas funciones para las interacciones con el usuario más básicas, como seleccionar directorios o archivos, entre otros.
+
+Cada función de este módulo abrirá una ventana emergente que se cerrará al finalizar las acciones de la misma.
+
+### AsistenteWin
+
+El módulo AsistenteWin pretende complementar el paquete con funciones básicas de cambiar el directorio activo, generar listas de archivos o cambiar el nombre de todos los archivos de una ubicación.
+
+Este módulo pretende simplificar el uso de automatizaciones que requieran hacer desplazamientos por el sistema.
+
+### AsistenteExcel
+
+El módulo AsistenteExcel contiene las funciones típicas de Excel aplicadas a instancias de pd.DataFrame como BuscarV o concatenar.
+
+## Clases
+
+En proceso de desarrollo.
+
+## Requisitos
+
+- Python3 (Versión recomendada: 3.8.2 en adelante)
+- Dependencias: se encuentran en el archivo "requirements.txt". Para instalar las dependencias, utiliza este comando en el directorio donde se encuentra el archivo con las dependencias:
+
+```cmd
+pip install -r requirements.txt
+```
+
+- et-xmlfile==1.0.1
+- jdcal==1.4.1
+- numpy==1.19.1
+- openpyxl==3.0.5
+- pandas==1.1.1
+- python-dateutil==2.8.1
+- pytz==2020.1
+- six==1.15.0
+- xlrd==1.2.0
+
+## Esto es software libre
+
 Puedes utilizarlo, modificarlo y hacer lo que más te apetezca con ello.
