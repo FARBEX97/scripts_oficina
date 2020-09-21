@@ -12,6 +12,10 @@ Este repositorio tiene la siguiente estructura:
 
 Los scripts de este repositorio son pequeños programas con funcionalidades muy específicas para descargar y utilizar sin necesidad de mucha configuración. Únicamente descarga la versión del intérprete de Python y las dependencias que se especifican al final de esta misma página.
 
+### ejecutar_script
+
+Introduce la ruta a python.exe dentro de tu entorno virtual y a continuación el nombre del script que deseas ejecutar para ver la magia.
+
 ### unificar_tablas
 
 ¡Reune tus archivos .xlsx y .csv en uno solo de forma automática con este script!
