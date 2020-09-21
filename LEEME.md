@@ -6,7 +6,6 @@ Este repositorio tiene la siguiente estructura:
 
 - Scripts.
 - Asistentes.
-- Clases.
 
 ## Scripts
 
@@ -56,9 +55,6 @@ Este módulo pretende simplificar el uso de automatizaciones que requieran hacer
 
 El módulo AsistenteExcel contiene las funciones típicas de Excel aplicadas a instancias de pd.DataFrame como BuscarV o concatenar.
 
-## Clases
-
-En proceso de desarrollo.
 
 ## Requisitos
 
@@ -81,4 +77,4 @@ pip install -r requirements.txt
 
 ## Esto es software libre
 
-Puedes utilizarlo, modificarlo y hacer lo que más te apetezca con ello.
+El contenido de este repositorio se distribuye mediante la licencia del MIT, en pocas palabras: puedes hacer lo que quieras con el código, pero debes mencionarme si lo utilizas.
