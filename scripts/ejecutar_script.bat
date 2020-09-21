@@ -1,3 +1,4 @@
 @ECHO OFF
-"ruta\donde\esta\python.exe" "script.py"
+:Donde pone venv, pon el nombre de tu entorno virtual
+"%~dp0venv\Scripts\python.exe" "script.py"
 PAUSE
