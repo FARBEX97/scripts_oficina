@@ -27,6 +27,21 @@ def importar_excel():
 
 
 
+def importar_excel_obj(): 
+    """
+    Permite seleccionar un archivo excel y devuelve una instancia de pd.DataFrame() de la librería pandas, con todas las columnas marcadas como tipo dato: str.
+    Atención: esta función trabaja más lento que "importar_excel()", pero conserva mejor los datos numéricos con muchos dígitos (Excel redondea los núm largos).
+    """
+    filename = elegir_archivo()
+    cols_names = pd.read_excel(filename).columns
+    types_dict = {}
+    for col in cols_names:
+        types_dict[col] = str    
+    df = pd.read_excel(filename, dtype=types_dict)
+    return df
+
+
+
 def mensaje_info(mensaje):
     """Muestra un popup con el mensaje que se pase como argumento."""
     showinfo("Información",mensaje)
