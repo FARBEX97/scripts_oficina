@@ -1,5 +1,5 @@
-# Version 1.2
-
+# Aviso: las funcionalidades de este módulo se migrarán al paquete Coffeece, que pasará a ser parte de las dependencias de este paquete.
+# Puedes descargarlo aquí: https://github.com/FARBEX97/coffeece
 
 import os
 from tkinter import Frame

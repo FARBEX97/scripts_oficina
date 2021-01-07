@@ -1,3 +1,7 @@
+# Aviso
+Las funcionalidades del módulo "asistentes" se migrarán al paquete Coffeece, que pasará a ser parte de las dependencias de este paquete.
+Puedes descargarlo aquí: https://github.com/FARBEX97/coffeece
+
 # Scripts de Oficina v1
 
 Este repositorio está creado con el único propósito de mejorar la calidad de vida de los empleados de oficina de habla hispana.

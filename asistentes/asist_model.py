@@ -1,3 +1,6 @@
+# Aviso: las funcionalidades de este módulo se migrarán al paquete Coffeece, que pasará a ser parte de las dependencias de este paquete.
+# Puedes descargarlo aquí: https://github.com/FARBEX97/coffeece
+
 def definir_cabeceras(ruta_formato):
     """Compara el modelo definido con el formato deseado y devuelve un diccionario."""
   

@@ -1,4 +1,5 @@
-# AsistenteWin version 1.1
+# Aviso: las funcionalidades de este módulo se migrarán al paquete Coffeece, que pasará a ser parte de las dependencias de este paquete.
+# Puedes descargarlo aquí: https://github.com/FARBEX97/coffeece
 
 import glob
 import os
