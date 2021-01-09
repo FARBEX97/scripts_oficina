@@ -9,56 +9,19 @@ Este repositorio está creado con el único propósito de mejorar la calidad de 
 Este repositorio tiene la siguiente estructura:
 
 - Scripts.
-- Asistentes.
+- Asistentes (descontinuado -> funcionalidades migradas a Coffeece).
 
 ## Scripts
 
 Los scripts de este repositorio son pequeños programas con funcionalidades muy específicas para descargar y utilizar sin necesidad de mucha configuración. Únicamente descarga la versión del intérprete de Python y las dependencias que se especifican al final de esta misma página.
 
-### ejecutar_script
-
-Introduce la ruta a python.exe dentro de tu entorno virtual y a continuación el nombre del script que deseas ejecutar para ver la magia.
-
 ### unificar_tablas
 
 ¡Reune tus archivos .xlsx y .csv en uno solo de forma automática con este script!
 
-#### Instrucciones
+### encontrar_duplicados
 
-- Prepara tus ficheros en una misma carpeta y pega el script en ella ¡No importa cuántos sean!
-- Ejecuta el programa unificarTablas.py y sigue las instrucciones que aparecerán en la ventana emergente (consola).
-- Recoge tu fichero "combinado.xlsx/.csv".
-
-#### Nota importante
-
-- Para unificar los archivos, deben encontrarse en la misma carpeta.
-- Para que el programa interprete bien bajo qué columnas colocar los datos, las tablas deben tener coherencia y tener siempre los mismos encabezados.
-- Las celdas formuladas se quedarán como valores en lugar de fórmulas.
-
-## Asistentes
-
-El paquete de "asistentes" contiene funciones para algunas de las actividades más habituales en la oficina. Actualmente cuenta con:
-
-- AsistenteExcel.py
-- AsistenteGUI.py
-- AsistenteWin.py
-
-### AsistenteGUI
-
-Contiene pequeñas funciones para las interacciones con el usuario más básicas, como seleccionar directorios o archivos, entre otros.
-
-Cada función de este módulo abrirá una ventana emergente que se cerrará al finalizar las acciones de la misma.
-
-### AsistenteWin
-
-El módulo AsistenteWin pretende complementar el paquete con funciones básicas de cambiar el directorio activo, generar listas de archivos o cambiar el nombre de todos los archivos de una ubicación.
-
-Este módulo pretende simplificar el uso de automatizaciones que requieran hacer desplazamientos por el sistema.
-
-### AsistenteExcel
-
-El módulo AsistenteExcel contiene las funciones típicas de Excel aplicadas a instancias de pd.DataFrame como BuscarV o concatenar.
-
+Busca los archivos duplicados de manera recursiva dentro del directorio definido por el usuario.
 
 ## Requisitos
 
@@ -69,6 +32,7 @@ El módulo AsistenteExcel contiene las funciones típicas de Excel aplicadas a i
 pip install -r requirements.txt
 ```
 
+- coffeece==0.2.1
 - et-xmlfile==1.0.1
 - jdcal==1.4.1
 - numpy==1.19.1
@@ -81,4 +45,4 @@ pip install -r requirements.txt
 
 ## Esto es software libre
 
-El contenido de este repositorio se distribuye mediante la licencia del MIT, en pocas palabras: puedes hacer lo que quieras con el código, pero debes mencionarme si lo utilizas.
+El contenido de este repositorio se distribuye mediante la licencia del MIT, en pocas palabras: puedes hacer lo que quieras con el código, pero si lo cambias, mejoras o distribuyes, debes incluir el archivo LICENSE tal cual está.
