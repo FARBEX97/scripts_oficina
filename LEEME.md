@@ -23,6 +23,10 @@ Los scripts de este repositorio son pequeños programas con funcionalidades muy 
 
 Busca los archivos duplicados de manera recursiva dentro del directorio definido por el usuario.
 
+### comprimir_img
+
+Comprime imágenes en formato PNG y configura la calidad de imágenes en formato JPG/JPEG.
+
 ## Requisitos
 
 - Python3 (Versión recomendada: 3.8.2 en adelante)
